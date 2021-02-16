@@ -14,3 +14,22 @@
 3. Write library that includes these defs
   
 4. Build Blynk app to control
+
+```python
+import libraries
+
+if (blynk sends pin for Zergbra):
+  neopixel.fill(red, green, blue)
+  
+elif (blynk sends pin for rainbow):
+  rainbow()
+
+elif (blynk sends pin for disco):
+  disco()
+
+elif (blynk sends pin for weather):
+  weather()
+  
+else:
+  default()
+```
